@@ -42,3 +42,9 @@ pip install -r requirements.txt
 ```python
 python main.py
 ```
+
+
+
+
+
+[![Build Status](https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main)](https://app.travis-ci.com/cleysoncassio/automatic)
