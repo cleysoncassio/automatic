@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CRM de gestão política</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>CRM de gestão política</h1>
+</header>
+<main>
+<section>
+<h2>Login</h2>
+<form action="login.php" method="post">
+<input type="text" name="username" placeholder="Usuário">
+<input type="password" name="password" placeholder="Senha">
+<input type="submit" value="Login">
+</form>
+</section>
+<section>
+<h2>Cadastro de cliente</h2>
+<form action="cadastro.php" method="post">
+<input type="text" name="nome" placeholder="Nome">
+<input type="text" name="email" placeholder="E-mail">
+<input type="text" name="telefone" placeholder="Telefone">
+<input type="text" name="endereco" placeholder="Endereço">
+<input type="text" name="cidade" placeholder="Cidade">
+<input type="text" name="estado" placeholder="Estado">
+<input type="text" name="pais" placeholder="País">
+<input type="submit" value="Cadastrar">
+</form>
+</section>
+<section>
+<h2>Tarefas</h2>
+<ul>
+<li>Ligar para João da Silva</li>
+<li>Enviar e-mail para Maria da Silva</li>
+<li>Agendar reunião com Pedro da Silva</li>
+</ul>
+</section>
+<section>
+<h2>Agenda</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Hora</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-03-08</td>
+<td>10:00</td>
+<td>Reunião com João da Silva</td>
+</tr>
+<tr>
+<td>2023-03-09</td>
+<td>14:00</td>
+<td>Palestra sobre política</td>
+</tr>
+<tr>
+<td>2023-03-10</td>
+<td>18:00</td>
+<td>Campanha eleitoral</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Localização atual</h2>
+<p>Sua localização atual é:</p>
+<p>Rua da Paz, 123, Centro, São Paulo, SP</p>
+</section>
+<section>
+<h2>Dashboard</h2>
+<p>Este é o seu dashboard. Aqui você pode acompanhar seu progresso, visualizar seus dados e tomar decisões.</p>
+</section>
+</main>
+<footer>
+<p>Copyright &copy; 2023</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
