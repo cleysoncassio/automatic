@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 4.Execute o sistema:
 
-# Para instalação das dependências para contribuição do projeto instale também
+`# Para instalação das dependências para contribuição do projeto instale também`
 
 ```python
 pip install -r requirements-dev.txt
@@ -65,6 +65,6 @@ flake8
 python main.py
 ```
 
-https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main
+<https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main>
 
 [![Build Status](https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main)](https://app.travis-ci.com/cleysoncassio/automatic)
