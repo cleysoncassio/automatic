@@ -1,6 +1,7 @@
-# automatic
+# Automatic
 
- Sistema de automação e gestão predial
+# Sistema de automação e gestão predial
+
 ## Sistema de Automação e Gestão Predial
 
 O Automatic  é um sistema de automação e gestão predial projetado para facilitar a administração e o controle de diversos aspectos de um edifício ou complexo predial.
@@ -46,6 +47,8 @@ pip install -r requirements.txt
 
 # Para instalação das dependências para contribuição do projeto instale também:
 
+4. Execute o sistema:
+
 ```python
 pip install -r requirements-dev.txt
 ```
@@ -56,8 +59,10 @@ Para Conferir qualidade do código rode:
 flake8
 ```
 
-4. Execute o sistema:
+5. Execute o sistema:
 
 ```python
 python main.py
 ```
+
+[![Build Status](https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main)](https://app.travis-ci.com/cleysoncassio/automatic)
