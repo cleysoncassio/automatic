@@ -34,10 +34,34 @@ cd automatic
 3.Instale as dependências do projeto:
 
 ```python
+python3 -m venv.venv
+```
+
+```python
+source venv/bin/activate
+```
+
+```python
 pip install -r requirements.txt
 ```
 
+
 4.Execute o sistema:
+
+#Para instalação das dependências para contribuição do projeto instale também:
+
+```python
+pip install -r requirements-dev.txt
+```
+
+Para Conferir qualidade do código rode:
+
+```console
+flake8
+```
+
+4. Execute o sistema:
+
 
 ```python
 python main.py
