@@ -1,7 +1,6 @@
 # automatic
  Sistema de automação e gestão predial
 
-
 ## Sistema de Automação e Gestão Predial
 
 O Automatic  é um sistema de automação e gestão predial projetado para facilitar a administração e o controle de diversos aspectos de um edifício ou complexo predial.
