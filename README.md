@@ -19,7 +19,7 @@ O Automatic  é um sistema de automação e gestão predial projetado para facil
 
 ## Instalação
 
-1. Clone este repositório:
+1.Clone este repositório:
 
 ```python
 git clone https://github.com/cleysoncassio/automatic
@@ -45,10 +45,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
 4.Execute o sistema:
 
-#Para instalação das dependências para contribuição do projeto instale também:
+# Para instalação das dependências para contribuição do projeto instale também
 
 ```python
 pip install -r requirements-dev.txt
@@ -60,8 +59,7 @@ Para Conferir qualidade do código rode:
 flake8
 ```
 
-4. Execute o sistema:
-
+5.Execute o sistema:
 
 ```python
 python main.py
