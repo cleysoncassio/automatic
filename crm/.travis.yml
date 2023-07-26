@@ -1,0 +1,11 @@
+language: python
+python:
+  -3.9
+install:
+# Install Python dependencies using pipenv and install the package itself in editable mode for testing purposes
+  -pip  install -r requirements-dev.txt
+script:
+  -flake8
+
+
+  

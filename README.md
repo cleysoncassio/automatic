@@ -1,6 +1,6 @@
-# automatic
- Sistema de automação e gestão predial
+# Automatic
 
+ Sistema de automação e gestão predial
 
 ## Sistema de Automação e Gestão Predial
 
@@ -25,13 +25,13 @@ O Automatic  é um sistema de automação e gestão predial projetado para facil
 git clone https://github.com/cleysoncassio/automatic
 ```
 
-2. Acesse o diretório do projeto:
+2.Acesse o diretório do projeto:
 
 ```python
 cd automatic
 ```
 
-3. Instale as dependências do projeto:
+3.Instale as dependências do projeto:
 
 ```python
 python3 -m venv.venv
@@ -44,6 +44,9 @@ source venv/bin/activate
 ```python
 pip install -r requirements.txt
 ```
+
+
+4.Execute o sistema:
 
 #Para instalação das dependências para contribuição do projeto instale também:
 
@@ -59,6 +62,9 @@ flake8
 
 4. Execute o sistema:
 
+
 ```python
 python main.py
 ```
+
+[![Build Status](https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main)](https://app.travis-ci.com/cleysoncassio/automatic)
