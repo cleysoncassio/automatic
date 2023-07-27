@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 from dados_eleitorais import views
 urlpatterns = [
-    path('', views.home, name= 'home'),
+    path('', views.home, name='home'),
     path('admin/', admin.site.urls),
     path('', include('dados_eleitorais.urls')),  # Incluindo o URLconf do aplicativo "dados_eleitorais"
 
