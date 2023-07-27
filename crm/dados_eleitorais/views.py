@@ -1,10 +1,9 @@
 # crm/dados_eleitorais/views.py
 from django.shortcuts import render
 from .models import DadosEleitorais
-from django.http import HttpResponse
 
 
-def home (request):
+def home(request):
     context = {
         'title': 'Home',
     }
