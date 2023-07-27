@@ -8,5 +8,9 @@ install:
 script:
   — flake8
     
+after script:
+notifications:
+email:
+  — cleysoncassio@gmail.com 
  
 
