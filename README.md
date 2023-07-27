@@ -65,6 +65,4 @@ flake8
 python main.py
 ```
 
-<https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main>
-
 [![Build Status](https://app.travis-ci.com/cleysoncassio/automatic.svg?branch=main)](https://app.travis-ci.com/cleysoncassio/automatic)
